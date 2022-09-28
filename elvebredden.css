@@ -1,0 +1,130 @@
+body {
+    background-color: beige;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+#header h1{
+    float: left;
+    padding-left: 20px;
+   margin-bottom: 0px;
+
+}
+
+#header a {
+    float: right;
+    color: black;
+    text-align:center;
+    padding: 14px 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#header a:hover {
+    background-color: black;
+    color:beige;
+  }
+
+#header a.active {
+    background-color: rgb(245, 240, 234);
+    color :black;
+}
+
+img {
+    width: 40px;
+    padding-top: 0px;
+}
+
+.meny {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-fill: auto;
+    column-gap: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10%;
+}
+
+.meny h1 {
+    column-span:all;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.meny h3 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.column {
+    float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.column row::after {
+    content: "";
+  clear: both;
+  display: table;
+}
+
+h2 {
+    margin: 10%;
+}  
+
+
+.meny span {
+    float: right;
+   
+  }
+
+
+.kontaktinfo {
+    padding: 3%;
+}  
+
+.map {
+   padding: 3%;
+   float: right;
+
+}  
+
+
+#footer {
+    text-align: right;
+    overflow: hidden;
+    background-color: burlywood;
+    clear: both;
+
+
+  }
+
+#footer p {
+    float: right;
+    color: black;
+    text-align:center;
+
+
+}
+
+#footer a {
+    float: right;
+    color: black;
+    text-align:center;
+    padding-right: 20px;
+    text-decoration: none
+}
+
+.index h3 {
+    text-align: center;
+}
