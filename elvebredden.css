@@ -86,7 +86,7 @@ h2 {
 .meny span {
     float: right;
    
-  }
+}
 
 
 .kontaktinfo {
@@ -127,4 +127,17 @@ h2 {
 
 .index h3 {
     text-align: center;
+}
+
+#grid {
+    float: center; 
+}
+
+#grid div {
+    float: left;
+    padding: 10px;
+}
+
+#grid div img{
+    width: 40px;    
 }
